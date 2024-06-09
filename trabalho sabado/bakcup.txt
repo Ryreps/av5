@@ -1,0 +1,129 @@
+/* style.css */
+
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Estilo da div cc2 */
+.cc2 {
+    background-image: url(imagens/menu.png);
+    background-color: #f0f0f0; /* Cor de fundo desejada */
+    padding: 20px;
+    position: relative;
+    width: 100%;
+}
+
+/* Estilo do header dentro da div cc2 */
+header.cc {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 5px;
+}
+
+/* Estilo do título h1 no header */
+header.cc h1 {
+    margin: 0;
+}
+
+/* Estilo da navegação no header */
+header.cc nav ul {
+    list-style: none;
+    display: flex;
+}
+
+header.cc nav ul li {
+    margin-left: 20px;
+}
+
+header.cc nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Estilo da div cc3 */
+.cc3 {
+    padding: 20px;
+}
+
+/* Estilo da grid das fotos */
+.cc3 section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+/* Estilo das figuras */
+.cc3 figure {
+    background-color: #f9f9f9;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.cc3 figure img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+/* Estilo da div de doações */
+div h3 {
+    margin-top: 20px;
+}
+
+div input, div button {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: calc(100% - 22px); /* Considera o padding e a borda */
+}
+
+div button {
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+}
+
+div button:hover {
+    background-color: #555;
+}
+
+/* Estilo do footer */
+div ul {
+    list-style: none;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+}
+
+div ul li {
+    margin: 10px 0;
+}
+
+div ul li a {
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+div ul li a i {
+    margin-right: 10px;
+}
+
+div ul li a:hover {
+    text-decoration: underline;
+}
